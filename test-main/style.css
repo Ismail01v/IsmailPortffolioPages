@@ -1,0 +1,43 @@
+#table-container {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+   
+}
+
+th {
+    background-color: #f2f2f2;
+    background-color:aqua;
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #f2f2f2;
+  }
+
+
+ 
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  th, td {
+    animation: fadeIn 0.9s ease-out;
+  }

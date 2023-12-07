@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project - Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/game1.css">
+</head>
+</head>
+<body>  
+  <div class="tic-tac-toe">
+    <div class="intro">
+      <p>Click on a square to place your X or O</p>
+      <p>Player 1: X</p>
+      <p>Player 2: O</p>
+    </div>
+    <div class="board">
+      <div class="board-row">
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+      </div>
+      <div class="board-row">
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+      </div>
+      <div class="board-row">
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+        <div class="board-cell"></div>
+      </div>
+      <div class="result"></div>
+    </div>
+    <div class="turn">Player 1</div>
+    <button onclick="restartGame()" class="restart">Restart</button>
+  </div>
+  <script src="js/game1.js"></script>
+</body>
+</html>
