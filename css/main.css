@@ -68,12 +68,13 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
+	z-index: 1000; 
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: #6c7279;
 }
-body a{
-
+body.modal-open {
+    overflow: hidden;  /* Блокирует прокрутку страницы */
 }
 ul, ol {
 	margin: 0;
@@ -674,6 +675,19 @@ height:80vh;
 width:150px;
 height:150px;
 border-radius:50%;	
+}
+.inner-description .about-list {
+	
+		list-style-type: disc ;
+		padding-left: 25px;
+		font-size: 17px;
+		line-height: 1.7;
+		color: #444;
+	   /* Отступ слева, чтобы точки не слипались с текстом */
+  }
+  
+.inner-description  .about-list li {
+font-size: 22px;
 }
 
 
