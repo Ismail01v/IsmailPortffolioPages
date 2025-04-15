@@ -116,12 +116,12 @@ var donutOptions = {
 
 // donut 1
 var chDonutData1 = {
-    labels: ['Bootstrap', 'Tailwind', 'Other'],
+    labels: ['Cisco', 'Fortigate', 'Other'],
     datasets: [
       {
         backgroundColor: colors.slice(0,3),
         borderWidth: 0,
-        data: [74, 11, 40]
+        data: [43, 30, 27]
       }
     ]
 };
@@ -137,12 +137,12 @@ if (chDonut1) {
 
 // donut 2
 var chDonutData2 = {
-    labels: ['Json', 'Javascript', 'Other'],
+    labels: ['Zabbix', 'Wireshark', 'Other'],
     datasets: [
       {
         backgroundColor: colors.slice(0,3),
         borderWidth: 0,
-        data: [35, 60, 30]
+        data: [45, 35, 20]
       }
     ]
 };
@@ -157,12 +157,12 @@ if (chDonut2) {
 
 // donut 3
 var chDonutData3 = {
-    labels: ['React', 'Jquey', 'Other'],
+    labels: ['VPN / IPsec / OpenVPN', 'Firewall / ACL', 'Other'],
     datasets: [
       {
         backgroundColor: colors.slice(0,3),
         borderWidth: 0,
-        data: [21, 45, 55]
+        data: [40, 30, 30]
       }
     ]
 };
